@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Mon Jun 11 2018 07:57:24 GMT+0200 (CEST)
+// Generated on Sun Feb 03 2019 11:57:44 GMT+0100 (Środkowoeuropejski czas stand.)
 
 module.exports = function(config) {
   config.set({
@@ -15,9 +15,6 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'node_modules/jquery/dist/jquery.min.js',
-      'js/*.js',
-      'test/*Spec.js'
     ],
 
 
@@ -35,7 +32,7 @@ module.exports = function(config) {
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress','verbose'],
+    reporters: ['progress'],
 
 
     // web server port
@@ -57,7 +54,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Firefox'],
+    browsers: ['Chrome'],
 
 
     // Continuous Integration mode

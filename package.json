@@ -23,9 +23,18 @@
     "karma-verbose-reporter": "0.0.6"
   },
   "dependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "karma-jasmine-jquery": "^0.1.1"
   },
   "directories": {
     "test": "test"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wojakson/TAUjasmineKarma.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wojakson/TAUjasmineKarma/issues"
+  },
+  "homepage": "https://github.com/Wojakson/TAUjasmineKarma#readme"
 }
